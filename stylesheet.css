@@ -1,0 +1,106 @@
+@import url (https://fonts.googleapis.com/css?family=Open+Sans|Gentium+Book+Basic);
+
+body{
+	/*typography declarations*/
+	color: #222222;
+	font-size: 1em;
+	font-family: "open-sans", "Helvetica Neue", sans-serif;
+}
+
+
+.billboard-intro,
+ .billboard-heading,
+ .content-footer {
+ 	text-align: center;
+ }
+
+
+.billboard {
+	/*added some code since image was a wierd size*/
+	padding: 12em 0;
+	background-image: url(http://i.imgur.com/G8RmyTp.jpg);
+	background-size: 100% 100%;
+	color:white;
+}
+
+
+.billboard-intro {
+	/*layout declarations*/
+	margin-bottom: 0.1em;
+	/*typography declarations*/
+	font-family: "Gentium Book Basic", Georgia, serif;
+	font-style: 4em;
+}
+
+
+.billboard-heading {
+	/*layout declarations*/
+	margin-top: -.02em;
+	/*typography declarations*/
+	font-family: "Open-Sans", "Helvetica neue", sans-serif;
+	font-weight: bold;
+	font-size:6em;
+	letter-spacing: -0.02em
+	text-transform:uppercase;
+}
+
+
+.intro-section,
+.location-section,
+.QA-section {
+	max-width: 38em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+}
+ 
+
+.social > li{
+	display: inline;
+	padding: 1em;
+}
+
+
+.intro-section > p,
+.location-section > p,
+.content-footer > p{
+	/*typography declarations*/
+	font-weight: 300;
+	letter-spacing: 0.05em;
+}
+
+
+.QA-section > h2 {
+	font-family: "Gentium Book Basic", Georgia, serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	/*layout*/
+	margin: 2em 0 1em 0;
+}
+
+
+section > h1 {
+		margin-top: 2em;
+}
+
+
+.content-footer > p { /*added for fun*/
+	color: white;
+	background-color: rgb(53, 77, 115);
+}
+
+
+body{
+	background-color: rgb(187, 197, 181);
+}
+
+
+em{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+h1{
+	color: white;
+}
